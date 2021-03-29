@@ -427,6 +427,11 @@ function Dashboard() {
               <div className="card-footer clearfix">
                 <button type="button" className="btn btn-primary float-right"><i className="fas fa-plus"></i> Add item</button>
               </div>
+
+
+
+
+
             </div>
 
           </section>
