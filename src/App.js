@@ -1,4 +1,4 @@
-import Dashboard from "./Components/Dashboard/Dashboard";
+import Dashboard from "./Screens/Dashboard/Dashboard";
 import Header from "./Layouts/Components/Header";
 import SideMenu from "./Layouts/Components/SideMenu";
 
