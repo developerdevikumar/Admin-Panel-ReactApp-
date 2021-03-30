@@ -85,7 +85,7 @@ function SideMenu() {
               <li class="nav-item">
                 <a href="pages/charts/uplot.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>uPlot</p>
+                  <p>Plot</p>
                 </a>
               </li>
             </ul>
@@ -100,10 +100,10 @@ function SideMenu() {
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="pages/UI/general.html" class="nav-link">
+               <Link to="/ui/general-list" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>General</p>
-                </a>
+             </Link>
               </li>
               <li class="nav-item">
                 <a href="pages/UI/icons.html" class="nav-link">
@@ -215,13 +215,13 @@ function SideMenu() {
           </li>
           <li class="nav-header">EXAMPLES</li>
           <li class="nav-item">
-            <a href="pages/calendar.html" class="nav-link">
+            <Link to="/calender" class="nav-link">
               <i class="nav-icon far fa-calendar-alt"></i>
               <p>
                 Calendar
                 <span class="badge badge-info right">2</span>
               </p>
-            </a>
+          </Link>
           </li>
           <li class="nav-item">
             <a href="pages/gallery.html" class="nav-link">
