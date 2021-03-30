@@ -4,6 +4,7 @@ import SideMenu from "./Layouts/Components/SideMenu";
 
 import {BrowserRouter as Router, Switch, Route, Redirect} from "react-router-dom";
 import Widgets from "./Screens/Widgets/Widgets";
+import Chart from "./Screens/Chart/Chart";
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
                 <Redirect to="/dashboard" />
             </Route>
             <Route exact path='/dashboard' component={Dashboard} />
-            <Route  path="/Widgets" component={Widgets} />x
+            <Route  path="/Widgets" component={Widgets} />
+            <Route path="/charts" component={Chart}  />
       </Switch>
       <SideMenu />
 
