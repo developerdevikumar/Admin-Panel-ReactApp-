@@ -8,6 +8,9 @@ import Chart from "./Screens/Chart/Chart";
 import Calender from "./Screens/Calender/Calender";
 import Footer from "./Layouts/Components/Footer";
 import Ui from "./Screens/UIElements/Ui";
+import Forms from "./Screens/Forms/Forms";
+import Tables from "./Screens/Tables/Tables";
+import Gallery from "./Screens/Gallery/Gallery";
 
 function App() {
   return (
@@ -24,6 +27,10 @@ function App() {
             <Route path="/charts" component={Chart}  />
             <Route path="/calender" component={Calender} />
             <Route path="/ui" component={Ui} />
+            <Route path="/forms" component={Forms} />
+            <Route path="/tables" component={Tables} />
+            <Route path="/gallery" component={Gallery} />
+
       </Switch>
       <SideMenu />
 <Footer />

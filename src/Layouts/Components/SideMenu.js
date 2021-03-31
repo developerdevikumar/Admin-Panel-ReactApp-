@@ -85,12 +85,7 @@ function SideMenu() {
                   <p>Inline</p>
 </Link>
               </li>
-              <li class="nav-item">
-                <a href="pages/charts/uplot.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Plot</p>
-                </a>
-              </li>
+
             </ul>
           </li>
           <li class="nav-item">
@@ -109,47 +104,20 @@ function SideMenu() {
              </Link>
               </li>
               <li class="nav-item">
-                <a href="pages/UI/icons.html" class="nav-link">
+                <Link to="/ui/icons" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Icons</p>
-                </a>
+               </Link>
               </li>
               <li class="nav-item">
-                <a href="pages/UI/buttons.html" class="nav-link">
+                <Link to="/UI/buttons" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Buttons</p>
-                </a>
+                </Link>
               </li>
-              <li class="nav-item">
-                <a href="pages/UI/sliders.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Sliders</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/UI/modals.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Modals & Alerts</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/UI/navbar.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Navbar & Tabs</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/UI/timeline.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Timeline</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/UI/ribbons.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Ribbons</p>
-                </a>
-              </li>
+
+
+
             </ul>
           </li>
           <li class="nav-item">
@@ -162,28 +130,23 @@ function SideMenu() {
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="pages/forms/general.html" class="nav-link">
+              <Link to="/forms/1" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>General Elements</p>
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a href="pages/forms/advanced.html" class="nav-link">
+              <Link to="/forms/2" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Advanced Elements</p>
-                </a>
+               </Link>
               </li>
+
               <li class="nav-item">
-                <a href="pages/forms/editors.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Editors</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/forms/validation.html" class="nav-link">
+               <Link to="/forms/3" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Validation</p>
-                </a>
+              </Link>
               </li>
             </ul>
           </li>
@@ -197,23 +160,18 @@ function SideMenu() {
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="pages/tables/simple.html" class="nav-link">
+                <Link to="/tables/1" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Simple Tables</p>
-                </a>
+              </Link>
               </li>
               <li class="nav-item">
-                <a href="pages/tables/data.html" class="nav-link">
+                <Link to="/tables/2" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>DataTables</p>
-                </a>
+              </Link>
               </li>
-              <li class="nav-item">
-                <a href="pages/tables/jsgrid.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>jsGrid</p>
-                </a>
-              </li>
+
             </ul>
           </li>
           <li class="nav-header">EXAMPLES</li>
@@ -227,13 +185,13 @@ function SideMenu() {
           </Link>
           </li>
           <li class="nav-item">
-            <a href="pages/gallery.html" class="nav-link">
+           <Link to="/gallery" class="nav-link">
               <i class="nav-icon far fa-image"></i>
               <p>
                 Gallery
               </p>
-            </a>
-          </li>
+</Link>
+         </li>
 
 
 
