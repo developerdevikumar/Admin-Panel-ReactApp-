@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import Calendar from 'react-calendar';
+import 'react-calendar/dist/Calendar.css';
 
 function CalenderList() {
     return (
@@ -61,7 +63,11 @@ function CalenderList() {
           <div class="col-md-9">
             <div class="card card-primary">
               <div class="card-body p-0">
-                <div id="calendar"></div>
+
+                <Calendar style={{ backgroundColor: 'blue',
+        width: '100px',
+        height: '100px'}} />
+
               </div>
 
             </div>
