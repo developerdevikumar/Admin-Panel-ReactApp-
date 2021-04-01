@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import WidgetItem from './Components/WidgetItem'
+import React, { Component } from 'react';
+import WidgetLst from './Components/WidgetLst';
 export default class Dashboard extends Component {
     render() {
         return (
@@ -23,7 +23,7 @@ export default class Dashboard extends Component {
     </div>
     {/* /.content-header */}
     {/* Main content */}
-    <WidgetItem />
+    <WidgetLst />
 
 </div>
 

@@ -2,8 +2,7 @@ import React from 'react'
 
 function AdvanceElementList() {
     return (
-        <div>
-{/* Content Wrapper. Contains page content */}
+
 <div className="content-wrapper">
   {/* Content Header (Page header) */}
   <section className="content-header">
@@ -191,7 +190,6 @@ function AdvanceElementList() {
                   </div>
                   {/* /input-group */}
                 </div>
-                {/* /.col-lg-6 */}
               </div>
               {/* /.row */}
               <h5 className="mt-4 mb-2">With buttons</h5>
@@ -628,7 +626,7 @@ function AdvanceElementList() {
   {/* /.content */}
 </div>
 
-  </div>
+
 
     )
 }

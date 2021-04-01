@@ -6,16 +6,16 @@ function SideMenu() {
         <div>
    <aside className="main-sidebar sidebar-dark-primary elevation-4">
     {/* Brand Logo */}
-    <a href="index3.html" className="brand-link">
+  <Link to="/dashboard" className="brand-link">
       <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" className="brand-image img-circle elevation-3" style={{opacity: '.8'}} />
-      <span className="brand-text font-weight-light">AdminLTE 3</span>
-    </a>
+      <span className="brand-text font-weight-light">Admin</span>
+    </Link>
     {/* Sidebar */}
     <div className="sidebar">
       {/* Sidebar user panel (optional) */}
       <div className="user-panel mt-3 pb-3 mb-3 d-flex">
         <div className="image">
-          <img src="dist/img/user2-160x160.jpg" className="img-circle elevation-2" alt="User Image" />
+          <img src="dist/img/user2-160x160.jpg" className="img-circle elevation-2" alt="" />
         </div>
         <div className="info">
           <a href="#" className="d-block">Alexander Pierce</a>
@@ -67,20 +67,20 @@ function SideMenu() {
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-             <Link to="/charts/chart-List" class="nav-link">
+             <Link to="/chart-List" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>ChartJS</p>
                 </Link>
               </li>
               <li class="nav-item">
-                <Link to="/charts/flot-List" class="nav-link">
+                <Link to="/flot-List" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Flot</p>
                </Link>
 
               </li>
               <li class="nav-item">
-                <Link to="/charts/inline-List" class="nav-link">
+                <Link to="/inline-List" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Inline</p>
 </Link>
@@ -104,13 +104,13 @@ function SideMenu() {
              </Link>
               </li>
               <li class="nav-item">
-                <Link to="/ui/icons" class="nav-link">
+                <Link to="/icons" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Icons</p>
                </Link>
               </li>
               <li class="nav-item">
-                <Link to="/UI/buttons" class="nav-link">
+                <Link to="/buttons" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Buttons</p>
                 </Link>
@@ -130,20 +130,20 @@ function SideMenu() {
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-              <Link to="/forms/1" class="nav-link">
+              <Link to="/general" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>General Elements</p>
                 </Link>
               </li>
               <li class="nav-item">
-              <Link to="/forms/2" class="nav-link">
+              <Link to="/advance" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Advanced Elements</p>
                </Link>
               </li>
 
               <li class="nav-item">
-               <Link to="/forms/3" class="nav-link">
+               <Link to="/validation" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Validation</p>
               </Link>
@@ -160,13 +160,13 @@ function SideMenu() {
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <Link to="/tables/1" class="nav-link">
+                <Link to="/sampletables" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Simple Tables</p>
               </Link>
               </li>
               <li class="nav-item">
-                <Link to="/tables/2" class="nav-link">
+                <Link to="/datatables" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>DataTables</p>
               </Link>

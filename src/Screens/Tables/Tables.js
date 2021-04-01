@@ -7,8 +7,8 @@ function Tables() {
         <Router>
         <div class="wrapper">
                 <Switch>
-                <Route  path='/tables/1' component={SampleTableList} />
-                <Route  path='/tables/2' component={DataTableList} />
+                <Route  path='/sampletables' component={SampleTableList} />
+                <Route  path='/tables' component={DataTableList} />
 
         </Switch>
 

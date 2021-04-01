@@ -9,9 +9,9 @@ function Forms() {
         <Router>
         <div class="wrapper">
                 <Switch>
-                <Route  path='/forms/advanceform' component={AdvanceElementList} />
-                <Route  path='/forms/1' component={GeneralElementList} />
-                <Route  path='/forms/2' component={ValidationList} />
+                <Route  path='/general' component={AdvanceElementList} />
+                <Route  path='/advance' component={GeneralElementList} />
+                <Route  path='/validation' component={ValidationList} />
 
         </Switch>
 

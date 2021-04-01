@@ -7,10 +7,11 @@ function Chart() {
     return (
         <Router>
 <div class="wrapper">
+
         <Switch>
-        <Route  path='/charts/chart-List' component={ChartList} />
-        <Route  path='/charts/flot-List' component={FlotList} />
-        <Route  path='/charts/inline-List' component={InlineList} />
+        <Route  path='/chart-List' component={ChartList} />
+        <Route  path='/flot-List' component={FlotList} />
+        <Route  path='/inline-List' component={InlineList} />
 </Switch>
 
         </div>

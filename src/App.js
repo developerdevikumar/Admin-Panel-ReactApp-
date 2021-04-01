@@ -24,14 +24,17 @@ function App() {
             </Route>
             <Route exact path='/dashboard' component={Dashboard} />
             <Route  path="/Widgets" component={Widgets} />
-            <Route path="/charts" component={Chart}  />
+
             <Route path="/calender" component={Calender} />
-            <Route path="/ui" component={Ui} />
-            <Route path="/forms" component={Forms} />
-            <Route path="/tables" component={Tables} />
+
+
             <Route path="/gallery" component={Gallery} />
 
       </Switch>
+      <Chart />
+      <Ui />
+      <Forms />
+          <Tables />
       <SideMenu />
 <Footer />
     </div>
